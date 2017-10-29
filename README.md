@@ -1,7 +1,7 @@
 # Static Site Template
-This project is a starter template for satic sites built using Jigsaw. 
+This project is a starter template for static sites built using Jigsaw. 
 
-It provides a template that is preconfigured to use bootstrap and vue.
+It provides a template that is preconfigured to use bootstrap4 and Vue2.
 
 ## Installation
 
