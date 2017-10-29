@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "deploy": "gulp && jigsaw build production && git add build_production && git commit -m 'Build for production' && git push"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "hasbin": "^1.2.3",
+    "laravel-elixir": "^6.0.0-15",
+    "laravel-elixir-browserify-official": "^0.1.3",
+    "laravel-elixir-browsersync-official": "^1.0.0",
+    "yargs": "^4.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap": "^4.0.0-beta.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1",
+    "laravel-elixir-vueify": "^2.0.0",
+    "moment": "^2.18.1",
+    "popper.js": "^1.12.5",
+    "sweetalert": "^2.0.6",
+    "vue": "^2.1.10"
+  }
+}
